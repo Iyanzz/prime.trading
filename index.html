@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime Trading Institute – Edukasi Trading Terstruktur & Realistis</title>
+  <meta name="description" content="Prime Trading Institute – Akademi edukasi trading berbasis disiplin, manajemen risiko, dan pengembangan pola pikir trader profesional." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================
+       HEADER / NAVBAR
+  ============================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+
+      <a href="#beranda" class="logo" aria-label="Prime Trading Institute">
+        <span class="logo-icon"><i class="fas fa-chart-line"></i></span>
+        <span class="logo-text">Prime <span class="logo-accent">Trading</span> Institute</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <button class="btn btn-gold btn-whatsapp-dynamic" aria-label="Konsultasi Gratis via WhatsApp">
+          <i class="fab fa-whatsapp"></i> Konsultasi Gratis
+        </button>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+
+  <!-- ============================
+       HERO SECTION
+  ============================= -->
+  <section class="hero-section" id="beranda">
+    <div class="hero-bg-shapes" aria-hidden="true">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Akademi Edukasi Trading</span>
+        </div>
+
+        <h1 class="hero-title">
+          Belajar Trading Secara<br />
+          <span class="text-gold">Terstruktur</span> dan Realistis
+        </h1>
+
+        <p class="hero-subtitle">
+          Tingkatkan pemahaman trading Anda melalui pendekatan yang berfokus pada
+          disiplin, manajemen risiko, dan pengembangan pola pikir trader.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-gold btn-large btn-whatsapp-dynamic">
+            <i class="fab fa-whatsapp"></i> Konsultasi via WhatsApp
+          </button>
+          <a href="#program" class="btn btn-outline-white btn-large">
+            <i class="fas fa-book-open"></i> Lihat Program
+          </a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="trust-item">
+            <i class="fas fa-shield-alt"></i>
+            <span>Edukasi Berbasis Fakta</span>
+          </div>
+          <div class="trust-item">
+            <i class="fas fa-users"></i>
+            <span>Komunitas Aktif</span>
+          </div>
+          <div class="trust-item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <span>Kurikulum Terstruktur</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-illustration" aria-hidden="true">
+        <div class="hero-card main-card">
+          <div class="card-header-row">
+            <span class="card-dot green"></span>
+            <span class="card-dot yellow"></span>
+            <span class="card-dot red"></span>
+            <span class="card-label">Market Analysis</span>
+          </div>
+          <!-- Candlestick Chart SVG -->
+          <svg class="chart-svg" viewBox="0 0 280 160" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustrasi grafik candlestick">
+            <!-- Grid lines -->
+            <line x1="0" y1="40" x2="280" y2="40" stroke="#1e3a5f" stroke-width="0.5"/>
+            <line x1="0" y1="80" x2="280" y2="80" stroke="#1e3a5f" stroke-width="0.5"/>
+            <line x1="0" y1="120" x2="280" y2="120" stroke="#1e3a5f" stroke-width="0.5"/>
+            <!-- Moving average line -->
+            <polyline points="10,100 40,85 70,90 100,75 130,70 160,60 190,65 220,55 250,45 280,40" fill="none" stroke="#c9a227" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <!-- Candlesticks -->
+            <g class="candles">
+              <!-- Bearish -->
+              <line x1="20" y1="90" x2="20" y2="115" stroke="#ef5350" stroke-width="1.5"/>
+              <rect x="15" y="95" width="10" height="14" fill="#ef5350" rx="1"/>
+              <!-- Bullish -->
+              <line x1="45" y1="75" x2="45" y2="100" stroke="#26a69a" stroke-width="1.5"/>
+              <rect x="40" y="78" width="10" height="16" fill="#26a69a" rx="1"/>
+              <!-- Bullish -->
+              <line x1="70" y1="78" x2="70" y2="105" stroke="#26a69a" stroke-width="1.5"/>
+              <rect x="65" y="82" width="10" height="18" fill="#26a69a" rx="1"/>
+              <!-- Bearish -->
+              <line x1="95" y1="65" x2="95" y2="90" stroke="#ef5350" stroke-width="1.5"/>
+              <rect x="90" y="68" width="10" height="15" fill="#ef5350" rx="1"/>
+              <!-- Bullish -->
+              <line x1="120" y1="58" x2="120" y2="82" stroke="#26a69a" stroke-width="1.5"/>
+              <rect x="115" y="60" width="10" height="16" fill="#26a69a" rx="1"/>
+              <!-- Bullish -->
+              <line x1="145" y1="50" x2="145" y2="75" stroke="#26a69a" stroke-width="1.5"/>
+              <rect x="140" y="53" width="10" height="17" fill="#26a69a" rx="1"/>
+              <!-- Bearish -->
+              <line x1="170" y1="55" x2="170" y2="78" stroke="#ef5350" stroke-width="1.5"/>
+              <rect x="165" y="57" width="10" height="14" fill="#ef5350" rx="1"/>
+              <!-- Bullish -->
+              <line x1="195" y1="45" x2="195" y2="68" stroke="#26a69a" stroke-width="1.5"/>
+              <rect x="190" y="47" width="10" height="15" fill="#26a69a" rx="1"/>
+              <!-- Bullish -->
+              <line x1="220" y1="38" x2="220" y2="60" stroke="#26a69a" stroke-width="1.5"/>
+              <rect x="215" y="40" width="10" height="14" fill="#26a69a" rx="1"/>
+              <!-- Bullish -->
+              <line x1="245" y1="30" x2="245" y2="55" stroke="#26a69a" stroke-width="1.5"/>
+              <rect x="240" y="32" width="10" height="16" fill="#26a69a" rx="1"/>
+            </g>
+            <!-- Label kanan -->
+            <text x="258" y="44" fill="#c9a227" font-size="8" font-family="Inter">▲ Uptrend</text>
+          </svg>
+          <div class="card-footer-row">
+            <span class="stat-chip up"><i class="fas fa-arrow-up"></i> Trend Analysis</span>
+            <span class="stat-chip neutral"><i class="fas fa-balance-scale"></i> Risk/Reward</span>
+          </div>
+        </div>
+
+        <!-- Floating mini cards -->
+        <div class="float-card float-top-right">
+          <i class="fas fa-book-open text-gold"></i>
+          <div>
+            <strong>Trading Plan</strong>
+            <small>Terstruktur & Jelas</small>
+          </div>
+        </div>
+        <div class="float-card float-bottom-left">
+          <i class="fas fa-brain text-gold"></i>
+          <div>
+            <strong>Psikologi Trading</strong>
+            <small>Disiplin & Konsisten</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#statistik" class="scroll-indicator" aria-label="Scroll ke bawah">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ============================
+       STATISTIK KEPERCAYAAN
+  ============================= -->
+  <section class="stats-section" id="statistik">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-user-graduate"></i></div>
+          <div class="stat-number" data-target="1000">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Peserta Belajar</div>
+          <div class="stat-note">ilustrasi</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Sesi Edukasi</div>
+          <div class="stat-note">ilustrasi</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-users"></i></div>
+          <div class="stat-icon-text">✦</div>
+          <div class="stat-label">Komunitas Aktif</div>
+          <div class="stat-note">diskusi & sharing</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-hands-helping"></i></div>
+          <div class="stat-icon-text">✦</div>
+          <div class="stat-label">Pendampingan Terstruktur</div>
+          <div class="stat-note">dari awal hingga mandiri</div>
+        </div>
+      </div>
+      <p class="stats-disclaimer">
+        <i class="fas fa-info-circle"></i>
+        Angka di atas merupakan ilustrasi demonstrasi dan bukan klaim hasil trading atau keuntungan finansial.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================
+       PROGRAM PEMBELAJARAN
+  ============================= -->
+  <section class="program-section" id="program">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Kurikulum</div>
+        <h2 class="section-title">Program <span class="text-gold">Pembelajaran</span></h2>
+        <p class="section-subtitle">
+          Materi disusun secara sistematis untuk membangun fondasi trading yang kuat,
+          bukan sekadar teknik instan.
+        </p>
+      </div>
+
+      <div class="program-grid">
+
+        <article class="program-card" data-index="1">
+          <div class="card-number">01</div>
+          <div class="card-icon-wrap">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3>Dasar-Dasar Trading</h3>
+          <p>Memahami konsep dasar pasar keuangan, instrumen trading, cara kerja order, dan terminologi penting yang wajib dikuasai setiap trader.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Cara kerja pasar keuangan</li>
+            <li><i class="fas fa-check"></i> Jenis instrumen & order</li>
+            <li><i class="fas fa-check"></i> Membaca chart dasar</li>
+          </ul>
+        </article>
+
+        <article class="program-card" data-index="2">
+          <div class="card-number">02</div>
+          <div class="card-icon-wrap">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Risk Management</h3>
+          <p>Mengelola risiko dengan disiplin merupakan fondasi utama trading yang berkelanjutan. Pelajari cara melindungi modal sebelum mencari peluang.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Konsep risk/reward ratio</li>
+            <li><i class="fas fa-check"></i> Position sizing yang tepat</li>
+            <li><i class="fas fa-check"></i> Penggunaan stop loss</li>
+          </ul>
+        </article>
+
+        <article class="program-card" data-index="3">
+          <div class="card-number">03</div>
+          <div class="card-icon-wrap">
+            <i class="fas fa-map"></i>
+          </div>
+          <h3>Trading Plan</h3>
+          <p>Menyusun rencana trading yang jelas, terukur, dan konsisten untuk membantu Anda mengambil keputusan berdasarkan strategi, bukan emosi.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Komponen trading plan lengkap</li>
+            <li><i class="fas fa-check"></i> Menetapkan aturan entry & exit</li>
+            <li><i class="fas fa-check"></i> Evaluasi dan pembaruan plan</li>
+          </ul>
+        </article>
+
+        <article class="program-card" data-index="4">
+          <div class="card-number">04</div>
+          <div class="card-icon-wrap">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Psikologi Trading</h3>
+          <p>Mengendalikan emosi saat mengambil keputusan adalah kunci membedakan trader yang konsisten dari yang tidak. Pelajari mindset yang tepat.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Mengelola fear & greed</li>
+            <li><i class="fas fa-check"></i> Disiplin dalam eksekusi</li>
+            <li><i class="fas fa-check"></i> Membangun kebiasaan trader</li>
+          </ul>
+        </article>
+
+        <article class="program-card" data-index="5">
+          <div class="card-number">05</div>
+          <div class="card-icon-wrap">
+            <i class="fas fa-journal-whills"></i>
+          </div>
+          <h3>Evaluasi dan Jurnal</h3>
+          <p>Belajar melakukan evaluasi secara berkala melalui jurnal trading untuk mengidentifikasi pola, kesalahan, dan area yang perlu diperbaiki.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Cara membuat jurnal trading</li>
+            <li><i class="fas fa-check"></i> Analisis performa berkala</li>
+            <li><i class="fas fa-check"></i> Proses perbaikan terus-menerus</li>
+          </ul>
+        </article>
+
+        <!-- CTA Card -->
+        <div class="program-card program-cta-card">
+          <div class="cta-card-inner">
+            <i class="fas fa-rocket"></i>
+            <h3>Mulai Perjalanan Belajar Anda</h3>
+            <p>Konsultasikan kebutuhan belajar Anda bersama kami secara gratis.</p>
+            <button class="btn btn-gold btn-whatsapp-dynamic">
+              <i class="fab fa-whatsapp"></i> Konsultasi Sekarang
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       CARA BELAJAR / TIMELINE
+  ============================= -->
+  <section class="how-section" id="cara-belajar">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Proses</div>
+        <h2 class="section-title">Bagaimana <span class="text-gold">Cara Belajarnya?</span></h2>
+        <p class="section-subtitle">
+          Proses pembelajaran yang terstruktur dan didampingi agar Anda berkembang secara bertahap dan konsisten.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item" data-step="1">
+          <div class="timeline-connector">
+            <div class="timeline-dot">
+              <i class="fas fa-comments"></i>
+            </div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-step">Langkah 01</span>
+            <h3>Konsultasi Awal</h3>
+            <p>Ceritakan latar belakang dan tujuan belajar trading Anda. Tim kami akan membantu menentukan jalur pembelajaran yang paling sesuai.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-step="2">
+          <div class="timeline-connector">
+            <div class="timeline-dot">
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-step">Langkah 02</span>
+            <h3>Mengikuti Materi</h3>
+            <p>Pelajari modul secara bertahap mulai dari fondasi hingga strategi lanjutan, dilengkapi dengan penjelasan yang mudah dipahami.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-step="3">
+          <div class="timeline-connector">
+            <div class="timeline-dot">
+              <i class="fas fa-flask"></i>
+            </div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-step">Langkah 03</span>
+            <h3>Praktik dan Evaluasi</h3>
+            <p>Terapkan pengetahuan melalui sesi latihan, kemudian evaluasi hasilnya bersama mentor untuk memastikan pemahaman yang benar.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-step="4">
+          <div class="timeline-connector">
+            <div class="timeline-dot">
+              <i class="fas fa-trophy"></i>
+            </div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-step">Langkah 04</span>
+            <h3>Pengembangan Disiplin Trading</h3>
+            <p>Bangun kebiasaan dan disiplin jangka panjang sebagai trader yang mandiri, konsisten dalam proses, dan terus berkembang.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       TESTIMONI
+  ============================= -->
+  <section class="testimoni-section" id="testimoni">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Cerita Peserta</div>
+        <h2 class="section-title">Apa Kata <span class="text-gold">Peserta Kami?</span></h2>
+        <p class="section-subtitle">
+          Pengalaman nyata dari peserta yang telah mengikuti program edukasi bersama Prime Trading Institute.
+        </p>
+      </div>
+
+      <div class="testimoni-grid">
+
+        <article class="testi-card">
+          <div class="testi-quote-icon"><i class="fas fa-quote-left"></i></div>
+          <p class="testi-text">
+            "Sebelum ikut program ini, saya trading hanya berdasarkan feeling dan sering rugi. Setelah belajar di sini, saya benar-benar memahami kenapa analisis yang sistematis itu penting. Cara menjelaskan materi dasar hingga lanjutan sangat runtut dan mudah dipahami."
+          </p>
+          <div class="testi-footer">
+            <div class="testi-avatar">
+              <span>RH</span>
+            </div>
+            <div class="testi-info">
+              <strong>Rizky Hardianto</strong>
+              <span>Peserta Program Dasar Trading</span>
+            </div>
+            <div class="testi-stars" aria-label="5 bintang">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testi-tag"><i class="fas fa-lightbulb"></i> Pemahaman Trading</div>
+        </article>
+
+        <article class="testi-card testi-featured">
+          <div class="testi-quote-icon"><i class="fas fa-quote-left"></i></div>
+          <p class="testi-text">
+            "Yang paling saya rasakan adalah saya sekarang punya trading plan yang benar-benar jelas. Dulu saya tidak punya aturan entry dan exit yang pasti, sehingga keputusan saya tidak konsisten. Sekarang saya tahu persis apa yang harus saya lakukan sebelum masuk pasar."
+          </p>
+          <div class="testi-footer">
+            <div class="testi-avatar featured-avatar">
+              <span>SA</span>
+            </div>
+            <div class="testi-info">
+              <strong>Sinta Amelia</strong>
+              <span>Peserta Program Trading Plan</span>
+            </div>
+            <div class="testi-stars" aria-label="5 bintang">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testi-tag"><i class="fas fa-map"></i> Trading Plan Jelas</div>
+        </article>
+
+        <article class="testi-card">
+          <div class="testi-quote-icon"><i class="fas fa-quote-left"></i></div>
+          <p class="testi-text">
+            "Modul psikologi trading benar-benar mengubah cara pandang saya. Dulu saya sering panik saat posisi minus dan malah mengambil keputusan buruk. Kini saya jauh lebih tenang, lebih disiplin mengikuti rencana, dan tidak lagi terbawa emosi saat kondisi pasar bergejolak."
+          </p>
+          <div class="testi-footer">
+            <div class="testi-avatar">
+              <span>BP</span>
+            </div>
+            <div class="testi-info">
+              <strong>Budi Prasetyo</strong>
+              <span>Peserta Program Psikologi Trading</span>
+            </div>
+            <div class="testi-stars" aria-label="5 bintang">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testi-tag"><i class="fas fa-brain"></i> Disiplin & Konsisten</div>
+        </article>
+
+      </div>
+
+      <div class="disclaimer-box">
+        <i class="fas fa-info-circle"></i>
+        <p>Testimoni di atas mencerminkan pengalaman belajar individu. Edukasi trading tidak menjamin hasil finansial tertentu. Setiap keputusan investasi adalah tanggung jawab pribadi masing-masing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FAQ
+  ============================= -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">FAQ</div>
+        <h2 class="section-title">Pertanyaan yang <span class="text-gold">Sering Diajukan</span></h2>
+        <p class="section-subtitle">Temukan jawaban atas pertanyaan umum seputar program edukasi kami.</p>
+      </div>
+
+      <div class="faq-list" id="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span><i class="fas fa-user-check text-gold"></i> Apakah program ini cocok untuk pemula?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ya, program kami dirancang untuk semua level, termasuk pemula yang belum pernah bersentuhan dengan dunia trading sama sekali. Kurikulum kami dimulai dari dasar yang paling fundamental sehingga Anda tidak perlu khawatir tertinggal. Tim kami juga siap mendampingi proses belajar Anda dari awal.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span><i class="fas fa-users text-gold"></i> Apakah tersedia komunitas setelah bergabung?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ya. Setiap peserta yang bergabung akan mendapatkan akses ke komunitas eksklusif yang aktif berdiskusi, berbagi insight, dan saling mendukung proses pembelajaran. Komunitas ini menjadi tempat bertanya, bertukar pengalaman, dan terus berkembang bersama sesama trader yang sedang belajar.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span><i class="fas fa-ban text-gold"></i> Apakah ada jaminan profit dari program ini?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Tidak. Prime Trading Institute adalah lembaga edukasi, bukan layanan pengelola dana atau sinyal trading. Kami tidak memberikan jaminan profit atau hasil finansial apapun. Yang kami berikan adalah pengetahuan, kerangka berpikir, dan keterampilan yang dibutuhkan untuk memahami dan mengelola trading secara mandiri. Setiap keputusan trading tetap menjadi tanggung jawab Anda sepenuhnya.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span><i class="fas fa-sign-in-alt text-gold"></i> Bagaimana cara bergabung dengan program ini?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Cara bergabung sangat mudah. Cukup klik tombol "Konsultasi via WhatsApp" di halaman ini, lalu tim kami akan membantu Anda mengenal program yang tersedia, menjawab pertanyaan, dan mengarahkan Anda ke jalur pembelajaran yang paling sesuai dengan kebutuhan dan tujuan Anda.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span><i class="fas fa-laptop text-gold"></i> Apakah pembelajaran dilakukan secara online?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ya, seluruh program pembelajaran kami diselenggarakan secara online sehingga Anda dapat belajar dari mana saja dan kapan saja sesuai jadwal Anda. Materi tersedia dalam format yang mudah diakses, dan sesi diskusi dilakukan melalui platform digital. Untuk detail teknis, silakan hubungi tim kami melalui WhatsApp.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="faq-cta">
+        <p>Masih ada pertanyaan? Hubungi kami langsung.</p>
+        <button class="btn btn-gold btn-whatsapp-dynamic">
+          <i class="fab fa-whatsapp"></i> Tanya via WhatsApp
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       KONTAK SECTION
+  ============================= -->
+  <section class="kontak-section" id="kontak">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Hubungi Kami</div>
+        <h2 class="section-title">Informasi <span class="text-gold">Kontak</span></h2>
+        <p class="section-subtitle">
+          Kami siap membantu Anda memulai perjalanan edukasi trading. Jangan ragu untuk menghubungi kami.
+        </p>
+      </div>
+
+      <div class="kontak-grid">
+
+        <div class="kontak-info">
+          <div class="kontak-card-group">
+
+            <div class="kontak-item">
+              <div class="kontak-icon"><i class="fab fa-whatsapp"></i></div>
+              <div class="kontak-detail">
+                <span class="kontak-label">WhatsApp</span>
+                <!-- MASTER NOMOR WHATSAPP — ubah di sini untuk update semua tombol -->
+                <span class="kontak-value" id="wa-number-display">+62 813-3630-7404</span>
+                <span class="kontak-sub">Tersedia selama jam operasional</span>
+              </div>
+            </div>
+
+            <div class="kontak-item">
+              <div class="kontak-icon email-icon"><i class="fas fa-envelope"></i></div>
+              <div class="kontak-detail">
+                <span class="kontak-label">Email</span>
+                <span class="kontak-value">hello@primetradinginstitute.com</span>
+                <span class="kontak-sub">Balasan dalam 1×24 jam kerja</span>
+              </div>
+            </div>
+
+            <div class="kontak-item">
+              <div class="kontak-icon telegram-icon"><i class="fab fa-telegram-plane"></i></div>
+              <div class="kontak-detail">
+                <span class="kontak-label">Telegram</span>
+                <span class="kontak-value">@PrimeTradingInstitute</span>
+                <span class="kontak-sub">Update materi & komunitas</span>
+              </div>
+            </div>
+
+            <div class="kontak-item">
+              <div class="kontak-icon location-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="kontak-detail">
+                <span class="kontak-label">Alamat</span>
+                <span class="kontak-value">Jakarta, Indonesia</span>
+                <span class="kontak-sub">Operasional online</span>
+              </div>
+            </div>
+
+            <div class="kontak-item">
+              <div class="kontak-icon clock-icon"><i class="fas fa-clock"></i></div>
+              <div class="kontak-detail">
+                <span class="kontak-label">Jam Operasional</span>
+                <span class="kontak-value">Senin – Jumat</span>
+                <span class="kontak-sub">09.00 – 17.00 WIB</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="kontak-cta-panel">
+          <div class="cta-panel-inner">
+            <div class="cta-panel-icon"><i class="fas fa-headset"></i></div>
+            <h3>Mulai Konsultasi Gratis</h3>
+            <p>Ceritakan tujuan belajar trading Anda dan tim kami akan membantu menentukan langkah terbaik untuk Anda.</p>
+            <ul class="cta-benefit-list">
+              <li><i class="fas fa-check-circle"></i> Tidak ada biaya konsultasi</li>
+              <li><i class="fas fa-check-circle"></i> Respon cepat dan ramah</li>
+              <li><i class="fas fa-check-circle"></i> Informasi program lengkap</li>
+            </ul>
+            <!-- TOMBOL UTAMA — nomor diambil dinamis dari JS -->
+            <button class="btn btn-gold btn-large btn-whatsapp-dynamic" id="main-wa-btn">
+              <i class="fab fa-whatsapp"></i> Hubungi via WhatsApp
+            </button>
+            <p class="cta-note"><i class="fas fa-lock"></i> Data Anda aman dan tidak disebarluaskan.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+  ============================= -->
+  <footer class="site-footer" id="footer">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <a href="#beranda" class="logo footer-logo" aria-label="Prime Trading Institute">
+          <span class="logo-icon"><i class="fas fa-chart-line"></i></span>
+          <span class="logo-text">Prime <span class="logo-accent">Trading</span> Institute</span>
+        </a>
+        <p class="footer-tagline">Akademi edukasi trading berbasis disiplin, manajemen risiko, dan pengembangan pola pikir trader.</p>
+        <div class="footer-social">
+          <a href="#kontak" class="social-link wa" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#kontak" class="social-link tg" aria-label="Telegram">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="#kontak" class="social-link em" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-nav-group">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#cara-belajar">Cara Belajar</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-group">
+        <h4>Program</h4>
+        <ul>
+          <li><a href="#program">Dasar-Dasar Trading</a></li>
+          <li><a href="#program">Risk Management</a></li>
+          <li><a href="#program">Trading Plan</a></li>
+          <li><a href="#program">Psikologi Trading</a></li>
+          <li><a href="#program">Evaluasi & Jurnal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact-group">
+        <h4>Kontak</h4>
+        <ul>
+          <li>
+            <i class="fab fa-whatsapp"></i>
+            <!-- Diisi oleh JS dari master nomor -->
+            <span id="footer-wa-number">+62 812-3456-7890</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>hello@primetradinginstitute.com</span>
+          </li>
+          <li>
+            <i class="fab fa-telegram-plane"></i>
+            <span>@PrimeTradingInstitute</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="copyright-year"></span> Prime Trading Institute. Seluruh hak cipta dilindungi.</p>
+        <p class="footer-disclaimer">Website ini bersifat edukatif. Tidak ada jaminan profit atau hasil finansial dari aktivitas belajar di sini.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
